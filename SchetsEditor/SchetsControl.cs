@@ -53,5 +53,20 @@ namespace SchetsEditor
         {   string kleurNaam = ((ToolStripMenuItem)obj).Text;
             penkleur = Color.FromName(kleurNaam);
         }
-    }
+
+        //nieuwe zooi
+
+        public void nieuweBitmap(Bitmap b)
+        {   schets.MaakBitmap(b, this.ClientSize);
+            this.Invalidate();
+        }
+
+        public Bitmap GeefBitmap()
+
+        {
+            Bitmap b = schets.GeefBitmap();
+            return b;
+
+        }
+    }   
 }
