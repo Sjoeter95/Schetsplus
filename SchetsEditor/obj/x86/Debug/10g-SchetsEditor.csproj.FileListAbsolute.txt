@@ -1,0 +1,7 @@
+\\soliscom.uu.nl\uu\Users\5521548\Schetsplus-Nieuwe-Gum\SchetsEditor\bin\Debug\Schets.exe
+\\soliscom.uu.nl\uu\Users\5521548\Schetsplus-Nieuwe-Gum\SchetsEditor\bin\Debug\Schets.pdb
+\\soliscom.uu.nl\uu\Users\5521548\Schetsplus-Nieuwe-Gum\SchetsEditor\obj\x86\Debug\10g-SchetsEditor.csprojResolveAssemblyReference.cache
+\\soliscom.uu.nl\uu\Users\5521548\Schetsplus-Nieuwe-Gum\SchetsEditor\obj\x86\Debug\SchetsEditor.Properties.Resources.resources
+\\soliscom.uu.nl\uu\Users\5521548\Schetsplus-Nieuwe-Gum\SchetsEditor\obj\x86\Debug\10g-SchetsEditor.csproj.GenerateResource.Cache
+\\soliscom.uu.nl\uu\Users\5521548\Schetsplus-Nieuwe-Gum\SchetsEditor\obj\x86\Debug\Schets.exe
+\\soliscom.uu.nl\uu\Users\5521548\Schetsplus-Nieuwe-Gum\SchetsEditor\obj\x86\Debug\Schets.pdb

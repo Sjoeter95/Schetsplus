@@ -45,6 +45,7 @@ namespace SchetsEditor
                 gr.DrawString   (tekst, font, kwast, 
                                               this.startpunt, StringFormat.GenericTypographic);
                 // gr.DrawRectangle(Pens.Black, startpunt.X, startpunt.Y, sz.Width, sz.Height);
+                s.Itemlijst.Add(new TextItem(startpunt, kwast, c));
                 startpunt.X += (int)sz.Width;
                 s.Invalidate();
             }

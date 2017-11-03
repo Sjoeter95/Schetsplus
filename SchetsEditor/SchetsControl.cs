@@ -2,21 +2,30 @@
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 namespace SchetsEditor
 {   public class SchetsControl : UserControl
     {   private Schets schets;
+        private List<SchetsItem> itemlijst;
         private Color penkleur;
 
         public Color PenKleur
         { get { return penkleur; }
         }
+
+        internal List<SchetsItem> Itemlijst
+        {
+            get { return itemlijst; }
+        }
+
         public Schets Schets
         { get { return schets;   }
         }
         public SchetsControl()
         {   this.BorderStyle = BorderStyle.Fixed3D;
             this.schets = new Schets();
+            this.itemlijst = new List<SchetsItem>();
             this.Paint += this.teken;
             this.Resize += this.veranderAfmeting;
             this.veranderAfmeting(null, null);

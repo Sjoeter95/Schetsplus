@@ -29,11 +29,13 @@ namespace SchetsEditor
         private void klikToolMenu(object obj, EventArgs ea)
         {
             this.huidigeTool = (ISchetsTool)((ToolStripMenuItem)obj).Tag;
+            
         }
 
         private void klikToolButton(object obj, EventArgs ea)
         {
             this.huidigeTool = (ISchetsTool)((RadioButton)obj).Tag;
+            Console.WriteLine(schetscontrol.Itemlijst.Count);
         }
 
         private void afsluiten(object obj, EventArgs ea)
